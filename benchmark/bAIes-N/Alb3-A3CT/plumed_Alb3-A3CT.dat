@@ -1,0 +1,5 @@
+#MOLINFO STRUCTURE=Alb3-A3CT.pdb
+batoms: GROUP NDX_FILE=atom_list_matrix.ndx NDX_GROUP=batoms
+baies: BAIES ATOMS=batoms DATA_FILE=baies_gauss_matrix.dat PRIOR=NONE TEMP=2.478541306
+PRINT ARG=baies.ene FILE=COLVAR STRIDE=500
+bbias: BIASVALUE ARG=baies.ene STRIDE=2
