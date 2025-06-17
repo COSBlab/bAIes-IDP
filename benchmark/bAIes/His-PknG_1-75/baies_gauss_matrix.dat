@@ -1,0 +1,3 @@
+#! FIELDS Id atom_i atom_j mu sigma
+#! SET model gaussian
+1 847 927 1.293445 0.352579
