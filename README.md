@@ -9,6 +9,8 @@ This repository is organized in the following two directories:
 * `scripts`: python scripts used for preprocessing and preparations of the bAIes simulations
 * `tutorials`: complete tutorials for IDP ensemble preparation
 
+## PLUMED installation
+
 ## LAMMPS with PLUMED installation
 
 LAMMPS version 2 Aug. 2023 source code can be downloaded [here](https://download.lammps.org/tars/index.html)
