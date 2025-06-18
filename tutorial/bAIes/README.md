@@ -7,7 +7,7 @@ Each step of the procedure will be carried out in a separate directory.
 Prior to making an ensemble, a structure prediction must be performed using Alphafold-2 or Colabfold.
 
 In the 0-inputs directory, you can find an Alphafold-2 (AF2) and a Colabfold prediction of PaaA2. 
-The user can choose to use either the AF2 or the Colabfold prediction for this tutorial.
+The user can in principle choose to use either the AF2 or the Colabfold prediction for this tutorial.
 
 ### AF2
 
@@ -55,15 +55,13 @@ This is done with the python script `preprocess_bAIes.py`, which takes as inputs
 
 * The distograms
 
-In this step, you can shoose whether to use the Alphafold-2 or the Colabfold distograms.
-
-In a terminal run:
-
-* If you want to use Alphafold-2 information:
+In a terminal run the following:
 
 `./step2-preprocess.bash idp.pdb relaxed_model_4_ptm_pred_0.pdb result_model_4_ptm_pred_0.pkl`
 
-* If you want to use Colabfold information:
+** Note ** Here, we use ALphafold-2 distograms.
+
+If you want to use Colabfold information, an alternative command would look as follows:
 
 `./step2-preprocess.bash idp.pdb relaxed_model_4_ptm_pred_0.pdb alphafold2_ptm_model_1_seed_000_prob_distributions.npy`
 
