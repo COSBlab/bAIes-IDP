@@ -17,8 +17,10 @@ This repository is organized in the following two directories:
 
 LAMMPS version 2 Aug. 2023 source code can be downloaded [here](https://download.lammps.org/tars/index.html)
 
-Prior to compilation,, LAMMPS must be patched with `patch_cmap.txt`. Go in the main LAMMPS directory and run:
+Prior to compilation, LAMMPS must be patched with `patch_cmap.txt`. Go in the main LAMMPS directory and run:
+
      `patch ./src/MOLECULE/fix_cmap.cpp < patch_cmap.txt`
+
 Then, LAMMPS can be compiled as usual.
 
 ## GROMACS installation
