@@ -8,3 +8,19 @@ Here you can find scripts and tutorials to perform ensemble prediction of IDPs u
 This repository is organized in the following two directories:
 * `scripts`: python scripts used for preprocessing and preparations of the bAIes simulations
 * `tutorials`: complete tutorials for IDP ensemble preparation
+
+## PLUMED installation
+
+
+
+## LAMMPS installation
+
+LAMMPS version 2 Aug. 2023 source code can be downloaded [here](https://download.lammps.org/tars/index.html)
+
+Prior to compilation,, LAMMPS must be patched with `patch_cmap.txt`. Go in the main LAMMPS directory and run:
+     `patch ./src/MOLECULE/fix_cmap.cpp < patch_cmap.txt`
+Then, LAMMPS can be compiled as usual.
+
+## GROMACS installation
+
+GROMACS can be downloaded and installed from [here](https://manual.gromacs.org/current/download.html)
