@@ -1,2 +1,2 @@
 # bAIes-IDP
-Atomic resolution ensembles of Intrinsically Disordered and Multi-domain Proteins with Alphafold
+Atomic resolution ensemble predictions of Intrinsically Disordered and Multi-domain Proteins with Alphafold-2
