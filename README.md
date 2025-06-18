@@ -21,7 +21,7 @@ Prior to compilation, LAMMPS must be patched with the file `patch_cmap.txt` prov
 
      `patch ./src/MOLECULE/fix_cmap.cpp < patch_cmap.txt`
 
-Then, LAMMPS can be compiled as usual.
+Then, LAMMPS can be compiled using CMake (described [here](https://docs.lammps.org/Build_cmake.html)) or using make (described [here](https://docs.lammps.org/Build_make.html)).
 
 ## GROMACS installation
 
