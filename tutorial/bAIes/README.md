@@ -59,7 +59,7 @@ In a terminal run the following:
 
 `./step2-preprocess.bash idp.pdb relaxed_model_4_ptm_pred_0.pdb result_model_4_ptm_pred_0.pkl`
 
-**Note** Here, we use Alphafold-2 distograms.
+**Note:** Here, we use Alphafold-2 distograms.
 
 If you want to use Colabfold information, an alternative command would look as follows:
 
