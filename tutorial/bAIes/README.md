@@ -18,7 +18,7 @@ To complete this tutorial, the user can in principle choose to use either a loca
 
 For Alphafold-2 predictions performed in a local cluster, the relevant information will be:
 
-* The distograms. They are located in a pickle file whose name looks like "result_model_x_ptm_pred_x.pkl"
+* The distograms. They are located in a pickle file whose name looks like `result_model_x_ptm_pred_x.pkl`
 
 * The relaxed pdb model, which will be used as a starting point for the simulations.
 
@@ -26,7 +26,7 @@ For Alphafold-2 predictions performed in a local cluster, the relevant informati
 
 For Colabfold predictions, the relevant information will be the same:
 
-* The distograms. They are located in a subdirectory that finishes with "_distmat" , in a numpy file whose name looks like "alphafold2_ptm_model_x_seed_xxx_prob_distributions.npy"
+* The distograms. They are located in a subdirectory that finishes with "_distmat" , in a numpy file whose name looks like `alphafold2_ptm_model_x_seed_xxx_prob_distributions.npy`
 
 * The relaxed pdb model, which will be used as a starting point fot the simulations.
 
