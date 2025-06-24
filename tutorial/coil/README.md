@@ -52,7 +52,7 @@ The expected outputs are:
 ## 3. Simulation
 **Working directory**: `3-simulation`
 
-In this step, we describe how to run random coil simulations. We also provide some information about how the settings can be adjusted or modified.
+In this step, we describe how to run random coil simulations.
 
 To run a simulation, we need to following in our directory:
 
