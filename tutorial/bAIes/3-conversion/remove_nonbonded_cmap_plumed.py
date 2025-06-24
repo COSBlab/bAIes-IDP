@@ -6,7 +6,7 @@ import re
 
 
 def build_parser():
-    parser = ArgumentParser(description="Make plumed files for random coil / bAIes simulations")
+    parser = ArgumentParser(description="Make LAMMPS files for bAIes simulations")
     parser.add_argument('-i', type=str, help="Input lammps file")
     parser.add_argument('-top', type=str, help="Data topology lammps file")
     parser.add_argument('-pdb', type=str, help="PDB file", default="protein.pdb")
