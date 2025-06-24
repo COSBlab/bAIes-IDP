@@ -19,6 +19,10 @@ This repository is organized in the following directories:
 
 To run bAIes-IDP, you will need several tools and a python environment:
 
+### Alphafold-2 or Colabfold
+
+You can get Alphafold-2 [here](https://github.com/google-deepmind/alphafold) or you can use Colabfold [here](https://github.com/sokrypton/ColabFold) or [here](https://github.com/steineggerlab/colabfold-protocol).
+
 ### A conda environment containing the intermol library
 
 You can easily install this environment with conda by using the provided yml file and running the following in a terminal:
