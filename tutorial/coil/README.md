@@ -1,8 +1,12 @@
-# Tutorial for ensemble prediction with bAIes
+# Tutorial for random coil ensemble preparation
+
+<p align="center">
+  <img src="coil.png" width="400">
+</p>
+
 These are the steps to do ensemble modelling using a random coil model.
 Each step of the procedure will be carried out in a separate directory.
 We note that the steps are very similar to that of the bAIes simulations.
-
 
 ## 1. Preparation
 **Working directory**: `1-preparation`
