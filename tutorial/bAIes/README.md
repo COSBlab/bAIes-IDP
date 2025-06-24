@@ -1,4 +1,9 @@
 # Tutorial for ensemble prediction with bAIes
+
+<p align="center">
+  <img src="baies.png" width="400">
+</p>
+
 These are the steps to do ensemble modelling using Alphafold-2 (or Colabfold) information.
 Each step of the procedure will be carried out in a separate directory.
 
