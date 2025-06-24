@@ -1,7 +1,7 @@
 # bAIes-IDP
 
 <p align="center">
-  <img src="baies-idp.png" width="800">
+  <img src="baies-idp.png" width="1000">
 </p>
 
 Atomic resolution ensemble predictions of Intrinsically Disordered and Multi-domain Proteins with Alphafold-2
