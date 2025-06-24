@@ -13,3 +13,17 @@ Brief overview:
 * `preprocess_bAIes.py`: Python script that reads the AF2 pdb model and distogram file and generates the necessary plumed files for the bAIes sampling;
 * `step3-conversion.bash`: Script that converts the inputs into the LAMMPS files necessary for the bAIes simulations;
 * `remove_nonbonded_cmap_plumed.py`: Python script called by `step3-conversion.bash` that performs the force field simplification and generate the final LAMMPS files.
+
+## **Software installation**
+
+To perform step 3, you need a specific conda environment.
+To create it on your system, you can use the following file:
+* `baies.yml`: file containing all the information about python libraries and versions to reproduce the python environment used for bAIes;
+
+To create this environment, just run:
+
+`conda env create -f baies.yml`
+
+To activate the environment in your terminal:
+
+`conda activate baies`
