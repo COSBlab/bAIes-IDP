@@ -105,7 +105,7 @@ The expected outputs are:
 ## 4. Simulation
 **Working directory**: `4-simulation`
 
-In this step, we describe how to run bAIes simulations. We also provide some information about how the settings can be adjusted or modified.
+In this step, we describe how to run bAIes simulations.
 
 To run a simulation, we need to following in our directory:
 
@@ -119,12 +119,14 @@ A bAIes simulation can be run in a terminal with the following command:
 
 `lmp -in idp_nvt.in`
 
+Of course, the LAMMPS input file `idp_nvt.in` can be modified to adjust the parameters of the simulation. Specifically, at the end of the file, some key lines can be adjusted to fit the purpose of the user:
 
+* `dump 1 all xtc 10000 traj_idp.xtc`: This line states that LAMMPS will record every 10000 steps (10ps if the timestep is maintained at 1fs) and save it in an xtc file named `traj_idp.xtc`
+* `run    2000000000`: This line specifies the number of steps to run for the simulation. In this example, 2G steps corresponds to 2 microseconds.
 
-
-
-
-
+The xtc format is convenient because some simple tasks can be performed in one line in the terminal to perform some simple analysis with the GROMACS tool.
+* To obtain some basic information about your trajectory, run `gmx check -f traj_idp.xtc`;
+* To keep only the structures every 100ps, run `gmx trjconv -f traj_idp.xtc -s idp.pdb -o traj_idp_dt100ps.xtc -dt 100000`;
 
 
 
