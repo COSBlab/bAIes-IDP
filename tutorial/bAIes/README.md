@@ -7,7 +7,7 @@ Each step of the procedure will be carried out in a separate directory.
 Prior to making an ensemble, a structure prediction must be performed using Alphafold-2 or Colabfold.
 
 In the 0-inputs directory, you can find an Alphafold-2 (AF2) and a Colabfold prediction of PaaA2. 
-The user can in principle choose to use either the AF2 or the Colabfold prediction for this tutorial.
+To complete this tutorial, the user can in principle choose to use either a local Alphafold-2 or a Colabfold prediction.
 
 ### AF2
 
@@ -15,11 +15,11 @@ For Alphafold-2 predictions performed in a local cluster, the relevant informati
 
 * The distograms. They are located in a pickle file whose name looks like "result_model_x_ptm_pred_x.pkl"
 
-* The relaxed pdb model, which will be used as a starting point fot the simulations.
+* The relaxed pdb model, which will be used as a starting point for the simulations.
 
 ### Colabfold
 
-For Colabfold predictions, the relevant information will be similar:
+For Colabfold predictions, the relevant information will be the same:
 
 * The distograms. They are located in a subdirectory that finishes with "_distmat" , in a numpy file whose name looks like "alphafold2_ptm_model_x_seed_xxx_prob_distributions.npy"
 
