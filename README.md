@@ -20,6 +20,8 @@ You can easily install this environment with conda by using the provided yml fil
 
 `conda env create -f baies.yml`
 
+Alternatively, the intermol library can be found [here](https://github.com/shirtsgroup/InterMol)
+
 ### GROMACS
 
 GROMACS can be downloaded and installed from [here](https://manual.gromacs.org/current/download.html)
