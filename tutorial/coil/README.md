@@ -70,7 +70,7 @@ Of course, the LAMMPS input file `idp_nvt.in` can be modified to adjust the para
 * `run    2000000000`: This line specifies the number of steps to run for the simulation. In this example, 2G steps corresponds to 2 microseconds.
 
 The xtc format is convenient because some simple tasks can be performed in one line in the terminal to perform some simple analysis with the GROMACS tool.
-* To obtain some basic information about your trajectory, run `gmx check -f traj_idp.xtc`;
-* To keep only the structures every 100ps, run `gmx trjconv -f traj_idp.xtc -s idp.pdb -o traj_idp_dt100ps.xtc -dt 100000`;
+* To obtain some basic information about your trajectory, run `gmx check -f traj_idp.xtc`
+* To keep only the structures every 100ps, run `gmx trjconv -f traj_idp.xtc -s idp.pdb -o traj_idp_dt100ps.xtc -dt 100000`
 
 
