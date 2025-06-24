@@ -90,7 +90,7 @@ In a terminal, run:
 
 `./step3-conversion.bash idp.gro idp.pdb idp.top`
 
-This scripts does two things:
+This script does two things:
 
 * First, it uses the python intermol library to convert the GROMACS files into LAMMPS files.
 
