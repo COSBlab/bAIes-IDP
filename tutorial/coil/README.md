@@ -22,7 +22,7 @@ In a terminal run:
 `./step1-prepare_gmx.bash relaxed_model_4_ptm_pred_0.pdb`
 
 This script runs gromacs commands that will take this pdb model and make GROMACS files out of it using the amber99SB-ILDN force field.
-The outputs should contain .gro, .itp, .top and .pdb files.
+The outputs should contain `.gro`, `.itp`, `.top` and `.pdb` files.
 
 ## 2. Conversion to LAMMPS
 **Working directory**: `3-conversion`
