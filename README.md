@@ -5,7 +5,7 @@ Here you can find scripts and tutorials to perform ensemble prediction of IDPs u
 
 V. Schnapka, T. Morozova, S. Sen, M. Bonomi. Atomic resolution ensembles of intrinsically disordered and multi-domain proteins with Alphafold. BiorXiv (2025). doi: [https://doi.org/10.1101/2025.06.18.660298](https://doi.org/10.1101/2025.06.18.660298)
 
-This repository is organized in the following two directories:
+This repository is organized in the following directories:
 * `scripts`: python scripts used for preprocessing and preparations of the bAIes simulations.
 * `tutorials`: complete tutorials for IDP ensemble preparation.
 * `benchmark`: The input files to reproduce our simulations.
