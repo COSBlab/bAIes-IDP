@@ -12,11 +12,11 @@ This repository is organized in the following directories:
 
 ## Software requirements
 
-You will need several tools and a python environment:
+To run bAIes-IDP, you will need several tools and a python environment:
 
 ### A conda environment containing the intermol library
 
-You can install this environment with conda by using the provided yml file and running the following in a terminal:
+You can easily install this environment with conda by using the provided yml file and running the following in a terminal:
 
 `conda env create -f baies.yml`
 
