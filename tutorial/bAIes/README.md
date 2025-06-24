@@ -75,6 +75,7 @@ The script `step2-preprocess.bash` script runs the preprocessing program with th
 
 ## 3. Conversion to LAMMPS
 **Working directory**: `3-conversion`
+
 **Environment requirement**: In this step, it is important that you activate the baies environment before running `step3-conversion.bash`: `conda activate baies`. To obtain this environment, look at the software requirements.
 
 In this step, the files generated in step 1 and 2 will be used to generate the final outputs for the bAIes simulation.
