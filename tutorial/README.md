@@ -1,4 +1,4 @@
-# bAIes-IDP Tutorial
+# bAIes-IDP Tutorials
 
 This directory contains tutorials for single IDP ensemble preparation as described in:
 
