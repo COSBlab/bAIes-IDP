@@ -1,7 +1,7 @@
 # bAIes-IDP benchmark
 Data to reproduce the bAIes and coil simulations described in:
 
-(To be published)
+V. Schnapka, T. Morozova, S. Sen, M. Bonomi. Atomic resolution ensembles of intrinsically disordered and multi-domain proteins with Alphafold. BiorXiv (2025). doi: [https://doi.org/10.1101/2025.06.18.660298](https://doi.org/10.1101/2025.06.18.660298)
 
 Analysis scripts and complete tutorials can be found [here](https://github.com/COSBlab/bAIes-IDP).
 
