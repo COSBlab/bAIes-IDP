@@ -1,4 +1,9 @@
 # bAIes-IDP
+
+<p align="center">
+  <img src="baies-idp.png" width="500">
+</p>
+
 Atomic resolution ensemble predictions of Intrinsically Disordered and Multi-domain Proteins with Alphafold-2
 
 Here you can find scripts and tutorials to perform ensemble prediction of IDPs using Alphafold-2, as introduced in:
