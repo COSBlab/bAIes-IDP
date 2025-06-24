@@ -24,7 +24,7 @@ You can easily install this environment with conda by using the provided yml fil
 
 GROMACS can be downloaded and installed from [here](https://manual.gromacs.org/current/download.html)
 
-## LAMMPS with PLUMED
+### LAMMPS with PLUMED
 
 LAMMPS version 2 Aug. 2023 source code can be downloaded [here](https://download.lammps.org/tars/index.html)
 
