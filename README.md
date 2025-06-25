@@ -25,7 +25,7 @@ You can get Alphafold-2 [here](https://github.com/google-deepmind/alphafold) or 
 
 ### A conda environment containing the intermol library
 
-You can easily install this environment with conda by using the provided yml file (see `scripts`) and running the following in a terminal:
+You can easily install this environment with conda by using the provided yml file (see `installation`) and running the following in a terminal:
 
 `conda env create -f baies.yml`
 
@@ -39,7 +39,7 @@ GROMACS can be downloaded and installed from [here](https://manual.gromacs.org/c
 
 LAMMPS version 2 Aug. 2023 source code can be downloaded [here](https://download.lammps.org/tars/index.html)
 
-For bAIes, LAMMPS must be patched with the file `patch_cmap.txt` provided here. After downloading the source code of LAMMPS, go in the source code main directory and run:
+For bAIes, LAMMPS must be patched with the file `patch_cmap.txt` provided in `installation`. After downloading the source code of LAMMPS, go in the source code main directory and run:
 
      `patch ./src/MOLECULE/fix_cmap.cpp < patch_cmap.txt`
 
