@@ -14,6 +14,7 @@ This repository is organized in the following directories:
 * `scripts`: python scripts used for preprocessing and preparations of the bAIes simulations.
 * `tutorials`: complete tutorials for IDP ensemble preparation.
 * `benchmark`: The input files to reproduce our simulations.
+* `installation`: Some useful files to install the necessary software to run bAIes-IDP.
 
 ## Software requirements
 
