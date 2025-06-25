@@ -20,9 +20,11 @@ This repository is organized in the following directories:
 
 To run bAIes-IDP, you will need a linux workstation, a python environment and some softwares:
 
-### Alphafold-2 or Colabfold
+### Alphafold-2
 
-You can get Alphafold-2 [here](https://github.com/google-deepmind/alphafold) or you can use Colabfold [here](https://github.com/sokrypton/ColabFold).
+You can get Alphafold-2 [here](https://github.com/google-deepmind/alphafold).
+
+Alternatively, if you cannot run Alphafold-2 locally, you can use a version of [Colabfold](https://github.com/sokrypton/ColabFold) that outputs the distance distributions. An implementation can be found [here](https://github.com/zshengyu14/ColabFold_distmats/blob/main/AlphaFold2.ipynb).
 
 ### A conda environment containing the intermol library
 
