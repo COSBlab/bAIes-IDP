@@ -28,7 +28,7 @@ For Alphafold-2 predictions performed in a local cluster, the relevant informati
 
 For Colabfold predictions, the necessary information will be the same.
 
-* The distograms. In [this implementation](https://github.com/zshengyu14/ColabFold_distmats/blob/main/AlphaFold2.ipynb), they are located in a subdirectory that finishes with "_distmat" , in a numpy file whose name looks like `alphafold2_ptm_model_x_seed_xxx_prob_distributions.npy`
+* The distograms. In the implementation with the distograms [mentionned above](https://github.com/zshengyu14/ColabFold_distmats/blob/main/AlphaFold2.ipynb), they are located in a subdirectory that finishes with "_distmat" , in a numpy file whose name looks like `alphafold2_ptm_model_x_seed_xxx_prob_distributions.npy`
 
 * The relaxed pdb model, which will be used as a starting point fot the simulations.
 
