@@ -78,6 +78,15 @@ The script `step2-preprocess.bash` script runs the preprocessing program with th
 
 * `plumed.dat`, The PLUMED file to be given to the simulation inputs.
 
+The `plumed.dat` file should look like this:
+
+```#MOLINFO STRUCTURE=idp.pdb
+batoms: GROUP NDX_FILE=atom_list.ndx NDX_GROUP=batoms
+baies: BAIES ATOMS=batoms DATA_FILE=baies_params.dat PRIOR=JEFFREYS TEMP=2.478541306
+PRINT ARG=baies.ene FILE=COLVAR STRIDE=500
+bbias: BIASVALUE ARG=baies.ene STRIDE=2
+```
+
 ## 3. Conversion to LAMMPS
 **Working directory**: `3-conversion`
 
