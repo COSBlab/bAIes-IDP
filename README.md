@@ -25,7 +25,7 @@ You can get Alphafold-2 [here](https://github.com/google-deepmind/alphafold) or 
 
 ### A conda environment containing the intermol library
 
-You can easily install this environment with conda by using the provided yml file and running the following in a terminal:
+You can easily install this environment with conda by using the provided yml file (see `scripts`) and running the following in a terminal:
 
 `conda env create -f baies.yml`
 
