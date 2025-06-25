@@ -18,7 +18,7 @@ This repository is organized in the following directories:
 
 ## Software requirements
 
-To run bAIes-IDP, you will need several tools and a python environment:
+To run bAIes-IDP, you will need a linux workstation, a python environment and some softwares:
 
 ### Alphafold-2 or Colabfold
 
