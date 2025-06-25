@@ -1,0 +1,29 @@
+--- lammps-stable/lammps-2Aug2023/src/MOLECULE/fix_cmap.cpp	2024-03-02 21:11:27.000000000 +0100
++++ lammps-stable_cmap/lammps-2Aug2023/src/MOLECULE/fix_cmap.cpp	2024-05-14 10:55:33.408435689 +0200
+@@ -53,7 +53,7 @@
+ static constexpr int LISTDELTA = 10000;
+ static constexpr double LB_FACTOR = 1.5;
+ 
+-static constexpr int CMAPMAX = 6;   // max # of CMAP terms stored by one atom
++static constexpr int CMAPMAX = 40;   // max # of CMAP terms stored by one atom
+ static constexpr int CMAPDIM = 24;  // grid map dimension is 24 x 24
+ static constexpr double CMAPXMIN = -360.0;
+ static constexpr double CMAPXMIN2 = -180.0;
+@@ -179,7 +179,7 @@
+ 
+   // pre-compute the derivatives of the maps
+ 
+-  for (i = 0; i < 6; i++)
++  for (i = 0; i < CMAPMAX; i++)
+     set_map_derivatives(cmapgrid[i],d1cmapgrid[i],d2cmapgrid[i],d12cmapgrid[i]);
+ 
+   if (utils::strmatch(update->integrate_style,"^respa")) {
+@@ -450,7 +450,7 @@
+       mli11 = (li1+1) % CMAPDIM;
+       mli21 = (li2+1)  %CMAPDIM;
+       t1 = type-1;
+-      if (t1 < 0 || t1 > 5) error->all(FLERR,"Invalid CMAP crossterm_type");
++      if (t1 < 0 || t1 > CMAPMAX-1) error->all(FLERR,"Invalid CMAP crossterm_type");
+ 
+       // determine the values and derivatives for the grid square points
+ 
