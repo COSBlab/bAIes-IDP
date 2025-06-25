@@ -9,7 +9,7 @@ To run bAIes-IDP, you need:
 
 Make sure you have access to at least one of the following:
 * Local Alphafold-2 installation. You can get Alphafold-2 [here](https://github.com/google-deepmind/alphafold);
-* Colabfold. You can use Colabfold [here](https://github.com/sokrypton/ColabFold).
+* [Colabfold](https://github.com/sokrypton/ColabFold) with distance distributions output. An implementation can be found [here](https://github.com/zshengyu14/ColabFold_distmats/blob/main/AlphaFold2.ipynb)
 
 Make sure you have installed in your system:
 * [Conda](https://www.anaconda.com) to install the environment needed by the conversion scripts
