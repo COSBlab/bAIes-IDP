@@ -9,7 +9,7 @@ Each step of the procedure will be carried out in a separate directory.
 
 ## 0. Inputs
 
-Prior to making an ensemble, a structure prediction must be performed using Alphafold-2 or [Colabfold](https://github.com/sokrypton/ColabFold).
+Prior to making an ensemble, a structure prediction must be performed using [Alphafold-2](https://github.com/google-deepmind/alphafold) or [Colabfold](https://github.com/sokrypton/ColabFold).
 
 In the 0-inputs directory, you can find an Alphafold-2 (AF2) and a Colabfold prediction of PaaA2. 
 To complete this tutorial, the user can in principle choose to use either a local Alphafold-2 or a Colabfold prediction.
