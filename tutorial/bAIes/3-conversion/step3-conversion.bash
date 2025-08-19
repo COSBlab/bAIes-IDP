@@ -19,7 +19,7 @@ python -m intermol.convert --gro_in ${gro} ${top} --lammps >> ${name}_conversion
 
 
 # Force field modification amber99SB-ILDN -> Random coil
-./remove_nonbonded_cmap_plumed.py -i ${name}_converted.input \
+./make_ff.py -i ${name}_converted.input \
                                   -top ${name}_converted.lmp \
                                   -pdb ${pdb} -cmap ${cmap} \
                                   -oin ${name}_nvt.in \
