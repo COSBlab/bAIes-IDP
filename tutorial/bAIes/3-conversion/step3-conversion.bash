@@ -9,7 +9,7 @@ top=${3}
 
 # file containing the residue-specific dihedral correction maps.
 cmap=cmap_20240524.cmap
-plumed=baies.dat
+plumed=plumed.dat
 
 # generic name for intermediary and output files
 name=idp
