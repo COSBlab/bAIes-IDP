@@ -44,7 +44,7 @@ LAMMPS version 2 Aug. 2023 source code can be downloaded [here](https://download
 
 For bAIes, LAMMPS must be patched with the file `patch_cmap.txt` provided in `installation`. After downloading the source code of LAMMPS, go in the source code main directory and run:
 
-     `patch ./src/MOLECULE/fix_cmap.cpp < patch_cmap.txt`
+`patch ./src/MOLECULE/fix_cmap.cpp < patch_cmap.txt`
 
 Then, LAMMPS can be compiled using CMake (described [here](https://docs.lammps.org/Build_cmake.html)) or using make (described [here](https://docs.lammps.org/Build_make.html)).
 
