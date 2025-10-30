@@ -1,5 +1,0 @@
-#MOLINFO STRUCTURE=idp.pdb
-batoms: GROUP NDX_FILE=atom_list.ndx NDX_GROUP=batoms
-baies: BAIES ATOMS=batoms DATA_FILE=baies_params.dat PRIOR=JEFFREYS TEMP=2.478541306
-PRINT ARG=baies.ene FILE=COLVAR STRIDE=500
-bbias: BIASVALUE ARG=baies.ene STRIDE=2
