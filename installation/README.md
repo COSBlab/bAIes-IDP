@@ -69,11 +69,31 @@ LAMMPS version 2 Aug. 2023 source code can be downloaded [here](https://download
 
 For bAIes, LAMMPS must be patched with the file `patch_cmap.txt` provided in this directory. After downloading the source code of LAMMPS, go in the source code main directory and run:
 
-     `patch ./src/MOLECULE/fix_cmap.cpp < patch_cmap.txt`
+`patch ./src/MOLECULE/fix_cmap.cpp < patch_cmap.txt`
 
 Then, LAMMPS can be compiled using CMake (described [here](https://docs.lammps.org/Build_cmake.html)) or using make (described [here](https://docs.lammps.org/Build_make.html)).
+In our system, LAMMPS was installed as follows using cmake. In the main directory:
 
-The implementation of PLUMED is described [here](https://docs.lammps.org/Build_extras.html#plumed).
+`mkdir build`,
+`cd build`,
+`cmake -C ../cmake/presets/basic.cmake -D PKG_PLUMED=yes -D PLUMED_MODE=runtime ../cmake`
+
+The argument `-D PLUMED_MODE=runtime` allows to call the wanted PLUMED installation at run time during the LAMMPS execution. The file in `cmake/presets/basic.cmake` allows us to set the additional packages to install with the LAMMPS source code. It may contain the following:
+
+```
+set(ALL_PACKAGES KSPACE MANYBODY MOLECULE RIGID GPU EXTRA-DUMP EXTRA-FIX KOKKOS)
+
+foreach(PKG ${ALL_PACKAGES})
+  set(PKG_${PKG} ON CACHE BOOL "" FORCE)
+endforeach()
+```
+
+Then:
+
+`make`,
+`sudo make install`
+
+More details on the implementation of PLUMED is described [here](https://docs.lammps.org/Build_extras.html#plumed).
 
 We recommend the use of OpenMP for parallelization.
 
