@@ -94,6 +94,7 @@ Then:
 `sudo make install`
 
 More details on the implementation of PLUMED is described [here](https://docs.lammps.org/Build_extras.html#plumed).
+Make sure that bAIes is available in your version of PLUMED. If not, the user can install the branch v2.10 of PLUMED, which contains bAIes: [https://github.com/plumed/plumed2/tree/v2.10](https://github.com/plumed/plumed2/tree/v2.10).
 
 We recommend the use of OpenMP for parallelization.
 
