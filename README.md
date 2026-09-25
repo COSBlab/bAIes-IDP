@@ -8,7 +8,7 @@ Atomic resolution ensemble predictions of Intrinsically Disordered and Multi-dom
 
 Here you can find scripts and tutorials to perform ensemble prediction of IDPs using Alphafold-2, as introduced in:
 
-V. Schnapka, T. Morozova, S. Sen, M. Bonomi. Atomic resolution ensembles of intrinsically disordered with Alphafold. BioRxiv (2025). doi: [https://doi.org/10.1101/2025.06.18.660298](https://doi.org/10.1101/2025.06.18.660298)
+V. Schnapka, T. Morozova, S. Sen, M. Bonomi. Atomic resolution ensembles of intrinsically disordered with Alphafold. Nature Communications (2026). doi: [https://doi.org/10.1038/s41467-026-69172-y](https://doi.org/10.1038/s41467-026-69172-y)
 
 This repository is organized in the following directories:
 * `scripts`: python scripts used for preprocessing and preparations of the bAIes simulations.
