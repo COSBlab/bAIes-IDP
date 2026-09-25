@@ -1,4 +1,4 @@
-# bAIes-IDP - Ensembles of disordered proteins and multidomain proteins with Alphafold-2
+# bAIes-IDP - Ensembles of intrinsically disordered proteins with Alphafold-2
 
 <p align="center">
   <img src="baies-idp.png" width="1000">
